@@ -18,7 +18,7 @@ class Shoes
   @this_shoes_swoosh
   end
   
-  def laces =(laces_color)
+  def laces=(laces_color)
     @this_shoes_laces = laces_color
   end
   
@@ -26,7 +26,7 @@ class Shoes
     @this_shoes_laces
   end
   
-  def base =(base_color)
+  def base=(base_color)
     @this_shoes_base = base_color
   end
   
