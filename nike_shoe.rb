@@ -22,10 +22,10 @@ end
 
 sams_shoe = Shoes.new
 sams_shoe.color = "red"
-
+sams_shoe.swoosh_color = "white"
 nat_shoes = Shoes.new
 nat_shoes.color = "blue"
-sams_shoe.swoosh_color = "white"
 
-puts "Sam's shoe is #{sams_shoe.color}"
+
+puts "Sam's shoe is #{sams_shoe.color} and her swoosh is #{sams_shoe.swoosh_color}"
 puts "Nat's shoe is #{nat_shoes.color}"
