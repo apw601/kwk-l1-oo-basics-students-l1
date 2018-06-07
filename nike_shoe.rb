@@ -13,4 +13,7 @@ end
 
 sams_shoe = Shoes.new
 sams_shoe.color = "red"
+nat_shoes = Shoes.new
+nat_shoes.color = "blue"
 puts "Sam's shoe is #{sams_shoe.color}"
+puts "Nat's shoe is #{nat_shoes.color}"
