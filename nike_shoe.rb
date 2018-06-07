@@ -9,11 +9,23 @@ class Shoes
   def color #tell the user what color the shoe is
   @this_shoes_color
   end
+  
+  def swoosh=(swoosh_color)
+    @this_shoes_swoosh = swoosh_color
+  end
+  
+  def swoosh_color
+  @this_shoes_swoosh
+  end
+  
 end
 
 sams_shoe = Shoes.new
 sams_shoe.color = "red"
+
 nat_shoes = Shoes.new
 nat_shoes.color = "blue"
+sams_shoe.swoosh_color = "white"
+
 puts "Sam's shoe is #{sams_shoe.color}"
 puts "Nat's shoe is #{nat_shoes.color}"
