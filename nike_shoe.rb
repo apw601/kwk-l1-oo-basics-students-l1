@@ -25,7 +25,7 @@ sams_shoe.color = "red"
 sams_shoe.swoosh = "white"
 nat_shoes = Shoes.new
 nat_shoes.color = "blue"
-
+nat_shoes.swoosh = "yellow"
 
 puts "Sam's shoe is #{sams_shoe.color} and her swoosh is #{sams_shoe.swoosh}"
-puts "Nat's shoe is #{nat_shoes.color}"
+puts "Nat's shoe is #{nat_shoes.swoosh}"
