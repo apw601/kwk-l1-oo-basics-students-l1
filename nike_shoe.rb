@@ -14,7 +14,7 @@ class Shoes
     @this_shoes_swoosh = swoosh_color
   end
   
-  def swoosh_color
+  def swoosh
   @this_shoes_swoosh
   end
   
